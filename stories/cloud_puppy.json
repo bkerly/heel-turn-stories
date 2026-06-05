@@ -1,0 +1,151 @@
+{
+  "id": "convention-caper",
+  "title": "Cloud Puppy & Friends",
+  "subtitle": "Infiltrate Dr. Magnor's Volcano Lair",
+  "description": "Dress in cosplay, sneak lunches into a comic book convention, get kidnapped by the evil Magnor, sabotage the control panel, and escape the exploding volcano.",
+  "accentColor": "FFE879F9",
+  "characters": [
+    {
+      "name": "Cloud Puppy",
+      "description": "Both a cloud and a puppy, CLOUD PUPPY is an anxious but excitable little scamp who is excited to learn what her friends are into!",
+      "stats": {
+        "Aesthetics": 4,
+        "Stealth": 5,
+        "Joie de vivre": 1,
+        "Sociability": 2,
+        "Navigation": 1,
+        "Craftiness": 4,
+        "Speed": 5
+      },
+      "imageName": "Cloud_Puppy.png"
+    },
+    {
+      "name": "Berry Rose",
+      "description": "A great friend and a chill hang, BERRY ROSE is a teddy bear but also a unicorn but also a fairy.",
+      "stats": {
+        "Aesthetics": 4,
+        "Stealth": 2,
+        "Joie de vivre": 5,
+        "Sociability": 3,
+        "Navigation": 2,
+        "Craftiness": 3,
+        "Speed": 1
+      },
+      "imageName": "Berry_Rose.png"
+    },
+    {
+      "name": "Mossquatch",
+      "description": "Even though he's super big he's also quite gentle and nice. He has no neck — his head just sits right in the middle of his shoulders.",
+      "stats": {
+        "Aesthetics": 1,
+        "Stealth": -1,
+        "Joie de vivre": 3,
+        "Sociability": 4,
+        "Navigation": 5,
+        "Craftiness": 4,
+        "Speed": -1
+      },
+      "imageName": "Mossquatch.png"
+    },
+    {
+      "name": "Jack",
+      "description": "Pretty much just a deer, but as the oldest and bravest of the gang he ends up getting everyone to do what he wants.",
+      "stats": {
+        "Aesthetics": 5,
+        "Stealth": 3,
+        "Joie de vivre": 3,
+        "Sociability": 4,
+        "Navigation": 3,
+        "Craftiness": 2,
+        "Speed": 3
+      },
+      "imageName": "Jack.png"
+    }
+  ],
+  "challenges": [
+    {
+      "prompt": "It's time for your second ever comic book convention! The first one was nearly ruined by costuming conflicts, but not this one! WHAT COSTUME WILL YOU WEAR THIS TIME?",
+      "goal": "Pick a costume.",
+      "relevantSkill": "Aesthetics",
+      "difficulty": 5
+    },
+    {
+      "prompt": "You're short on cash, so you and your friends decide to sneak your lunches in rather than paying convention prices. WHAT WILL YOU PACK FOR YOUR SECRET LUNCH?",
+      "goal": "Pack a lunch you can sneak into a convention.",
+      "relevantSkill": "Stealth",
+      "difficulty": 7
+    },
+    {
+      "prompt": "Lunch hidden, you enter the main hall with the guards none the wiser! It's 40 minutes until the first panel. WHAT DO YOU DO TO PASS THE TIME?",
+      "goal": "Pick something enjoyable you can do at a comics convention.",
+      "relevantSkill": "Joie de vivre",
+      "difficulty": 3
+    },
+    {
+      "prompt": "You spy someone in an absolutely perfect Magnor costume! He's the villain of your favorite series. HOW DO YOU GET HIS ATTENTION?",
+      "goal": "Get Magnor's attention.",
+      "relevantSkill": "Sociability",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Oh no! It actually IS Magnor! He picks you up and carries you to his LavaMobile. You can't see where he's driving. HOW DO YOU FIGURE OUT WHERE YOU'RE GOING?",
+      "goal": "Come up with a reasonable way to guess where you are going.",
+      "relevantSkill": "Navigation",
+      "difficulty": 5
+    },
+    {
+      "prompt": "You're in Magnor's volcano lair! The guards are leading you to a prison cell. HOW DO YOU ESCAPE THE GUARDS?",
+      "goal": "Give the guards the slip!",
+      "relevantSkill": "Craftiness",
+      "difficulty": 8
+    },
+    {
+      "prompt": "You've escaped the guards but need to hide while you figure out a plan. WHERE DO YOU HIDE IN THE SECRET VOLCANO LAIR?",
+      "goal": "Pick a good hiding place.",
+      "relevantSkill": "Stealth",
+      "difficulty": 7
+    },
+    {
+      "prompt": "You decide to stop Magnor yourself! But you'll need a disguise first. HOW DO YOU GET A DISGUISE SO YOU LOOK LIKE A VOLCANO WORKER?",
+      "goal": "Obtain a disguise.",
+      "relevantSkill": "Craftiness",
+      "difficulty": 8
+    },
+    {
+      "prompt": "You're hungry and duck into the break room to eat your hidden lunch. Some volcano workers come in! WHAT DO YOU SAY TO THEM AS SMALL TALK?",
+      "goal": "Bring up a topic of general interest.",
+      "relevantSkill": "Sociability",
+      "difficulty": 6
+    },
+    {
+      "prompt": "You reach the control room. Magnor is about to release lava to burn the convention! In front of you is a control panel covered with bright, beautiful buttons. WHAT BUTTONS DO YOU PRESS?",
+      "goal": "Any entry — press something!",
+      "relevantSkill": "Aesthetics",
+      "difficulty": 0
+    },
+    {
+      "prompt": "You've done it! But you've got to escape now, and fast. You spy a bicycle, a helicopter, and an open window. HOW DO YOU ESCAPE?",
+      "goal": "Escape the imminently exploding volcano.",
+      "relevantSkill": "Speed",
+      "difficulty": 10
+    },
+    {
+      "prompt": "You're out of the volcano but need to get back to the convention. You're in an unfamiliar area. HOW DO YOU FIGURE OUT YOUR WAY BACK?",
+      "goal": "Navigate back to the convention.",
+      "relevantSkill": "Navigation",
+      "difficulty": 3
+    },
+    {
+      "prompt": "You get back and see your friends. They notice you've changed into a Magnor volcano worker uniform. HOW DO YOU EXPLAIN YOUR ABSENCE AND NEW OUTFIT?",
+      "goal": "Explain your absence and new costume.",
+      "relevantSkill": "Craftiness",
+      "difficulty": 5
+    },
+    {
+      "prompt": "You missed nearly all of the convention, but there's still an hour or two left. HOW DO YOU MAKE THE MOST OF YOUR REMAINING TIME?",
+      "goal": "Pick something enjoyable you can do at a comics convention.",
+      "relevantSkill": "Joie de vivre",
+      "difficulty": 2
+    }
+  ]
+}

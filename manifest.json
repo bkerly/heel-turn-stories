@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "id": "spy-squad",
+      "title": "Animal Spy Squad",
+      "file": "stories/animal_spy_squad.json",
+      "version": 1
+    },
+    {
+      "id": "avian-adventure",
+      "title": "Bird Day Afternoon",
+      "file": "stories/bird_day_afternoon.json",
+      "version": 1
+    },
+    {
+      "id": "convention-caper",
+      "title": "Cloud Puppy & Friends",
+      "file": "stories/cloud_puppy.json",
+      "version": 1
+    },
+    {
+      "id": "demon-hunters",
+      "title": "Huntr/x",
+      "file": "stories/huntrx.json",
+      "version": 1
+    },
+    {
+      "id": "mermaid-story",
+      "title": "Under the Sea",
+      "file": "stories/under_the_sea.json",
+      "version": 1
+    },
+    {
+      "id": "champagne-supernova",
+      "title": "Champagne Supernova",
+      "file": "stories/champagne_supernova.json",
+      "version": 1
+    }
+  ]
+}

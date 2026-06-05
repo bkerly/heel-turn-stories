@@ -1,0 +1,188 @@
+{
+  "id": "champagne-supernova",
+  "title": "Champagne Supernova",
+  "subtitle": "A Rock Star Saves The Earth (Probably)",
+  "description": "You're a rock star fresh off a world tour when the sun goes out. Pilot a spaceship, argue with your irritating brother, reconcile conflicting scientific data, and restart the planet with the power of music.",
+  "accentColor": "FFFBBF24",
+  "characters": [
+    {
+      "name": "Roughneck Ben",
+      "description": "His profession is drilling holes and his passion is being grounded and relatable in otherwise outré situations.",
+      "stats": {
+        "Thoughtfulness": 2,
+        "Performance": 1,
+        "Sincerity": 3,
+        "Gravitas": 5,
+        "Space piloting": 2,
+        "Science": 0,
+        "Ingenuity": 5,
+        "Sommalier": -1
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Tom Hanks",
+      "description": "America's dad! Listen, he may not be the most exciting but he'll get us through this.",
+      "stats": {
+        "Thoughtfulness": 4,
+        "Performance": 3,
+        "Sincerity": 5,
+        "Gravitas": 5,
+        "Space piloting": 3,
+        "Science": 2,
+        "Ingenuity": 2,
+        "Sommalier": 2
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Jaz Flannigan",
+      "description": "He's a space cowboy from the future, which is why his name is a made-up first name with an Anglo-Irish last name.",
+      "stats": {
+        "Thoughtfulness": 2,
+        "Performance": 4,
+        "Sincerity": 1,
+        "Gravitas": 1,
+        "Space piloting": 5,
+        "Science": 5,
+        "Ingenuity": 2,
+        "Sommalier": 1
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Josh (Katie's Friend)",
+      "description": "Charismatic and good at drinks, he used to work at Plumpjack but now has his own whiskey label.",
+      "stats": {
+        "Thoughtfulness": 4,
+        "Performance": 5,
+        "Sincerity": 4,
+        "Gravitas": 3,
+        "Space piloting": -1,
+        "Science": 4,
+        "Ingenuity": 3,
+        "Sommalier": 5
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Mr. Monkey Jocks",
+      "description": "A sock puppet; greedy, selfish, and demanding.",
+      "stats": {
+        "Thoughtfulness": -2,
+        "Performance": -1,
+        "Sincerity": -3,
+        "Gravitas": 0,
+        "Space piloting": -5,
+        "Science": -2,
+        "Ingenuity": -3,
+        "Sommalier": -5
+      },
+      "imageName": ""
+    }
+  ],
+  "challenges": [
+    {
+      "prompt": "It's the last show of the tour and you're in Cleveland! The crowd is cheering for an encore, what song do you play? NAME A SONG",
+      "goal": "Name a song or credible fictitious song title.",
+      "relevantSkill": "Thoughtfulness",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Wow, what a great show, and your super irritating brother didn't even ruin it with a too-long guitar solo...oh no, what's this, he's back on the stage and playing a too-long solo? HOW DO YOU SHOW THE FANS WHO THE REAL STAR IS?",
+      "goal": "Show up your brother!",
+      "relevantSkill": "Performance",
+      "difficulty": 7
+    },
+    {
+      "prompt": "Your brother is real mad and is taking a different flight home than you. That's OK, now you can think your thoughts in peace. WHAT DO YOU THINK ABOUT?",
+      "goal": "Name something you might think about.",
+      "relevantSkill": "Thoughtfulness",
+      "difficulty": 3
+    },
+    {
+      "prompt": "Just as you arrive back home, a government-looking person knocks on your door. They point out that it's noon but it's still dark outside. HOW DO YOU EXPRESS YOUR SHOCK?",
+      "goal": "Express surprise.",
+      "relevantSkill": "Sincerity",
+      "difficulty": 3
+    },
+    {
+      "prompt": "Anyway, the government guy thinks the sun may be off and some scientists are flying there in a spaceship to restart it, and they need someone to entertain everyone on the way. HOW DO YOU SHOW THAT YOU ARE THE GREATEST ENTERTAINER OF ALL TIME?",
+      "goal": "Make the case that you are the greatest entertainer of all time.",
+      "relevantSkill": "Gravitas",
+      "difficulty": 8
+    },
+    {
+      "prompt": "They're convinced! Now it's time for liftoff, no time for training! WHAT COOL THING DO YOU SAY INTO THE RADIO?",
+      "goal": "Say something cool that reflects the gravity of the situation.",
+      "relevantSkill": "Gravitas",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Oh no! Everyone was so excited by the cool thing you said they fell out of the spaceship. Now it's just you on the way to the sun! HOW DO YOU SET COURSE FOR THE SUN?",
+      "goal": "Pilot the ship towards the sun, or have the autopilot do it.",
+      "relevantSkill": "Space piloting",
+      "difficulty": 7
+    },
+    {
+      "prompt": "You're on your way to the sun! Sure looks regular from here. HOW DO YOU AVOID GETTING SUNBURNED ON YOUR TRIP?",
+      "goal": "Put on sunglasses, stay out of the viewing window, wear sunscreen, or anything else credible.",
+      "relevantSkill": "Science",
+      "difficulty": 3
+    },
+    {
+      "prompt": "The ship shakes and begins spinning wildly...Criminy! It's a space problem! Basically you need to reach a switch, but it's too high to reach. HOW DO YOU REACH THE HIGH SWITCH?",
+      "goal": "Reach or otherwise activate the high switch.",
+      "relevantSkill": "Space piloting",
+      "difficulty": 11
+    },
+    {
+      "prompt": "As you approach the sun, you notice another ship flying on the same course. WHAT DO YOU DO TO ATTRACT THEIR ATTENTION?",
+      "goal": "Attract the other ship's attention.",
+      "relevantSkill": "Performance",
+      "difficulty": 7
+    },
+    {
+      "prompt": "The other ship starts shooting at you with space lasers! Why is it so mean? HOW DO YOU MAKE IT STOP?",
+      "goal": "Disable the other ship without destroying it.",
+      "relevantSkill": "Ingenuity",
+      "difficulty": 12
+    },
+    {
+      "prompt": "Oh crud, it's your super irritating brother piloting the other ship. He says he was sent by scientists on the other side of the world, and they say the sun is too hot. HOW DO YOU RECONCILE THESE TWO CONFLICTING OBSERVATIONS?",
+      "goal": "Figure out that the earth stopped spinning — the sun is fine.",
+      "relevantSkill": "Science",
+      "difficulty": 6
+    },
+    {
+      "prompt": "Having realized that the earth stopped spinning, you head back to try to solve the problem. DO YOU USE A GRAVITATIONAL SLINGSHOT TO GET HOME QUICKER?",
+      "goal": "Answer should be yes — use the slingshot. Otherwise you'll burn too much fuel.",
+      "relevantSkill": "Space piloting",
+      "difficulty": 7
+    },
+    {
+      "prompt": "Around the backside of the sun you and your brother have a lot of time to chat. WHAT SHARED MEMORY DO YOU BOND OVER?",
+      "goal": "Bond with your brother.",
+      "relevantSkill": "Sincerity",
+      "difficulty": 6
+    },
+    {
+      "prompt": "It has become clear that only the power of music can restart the world, and you and your brother will have to work together. HOW DO YOU MOTIVATE HIM TO WORK TOGETHER?",
+      "goal": "Convince your brother to work with you.",
+      "relevantSkill": "Gravitas",
+      "difficulty": 8
+    },
+    {
+      "prompt": "Back at Earth, it's time for a song of universal love and ungodly rock power. It's time for \"Champagne Supernova\"! HOW DO YOU GET EVERYONE ON EARTH TO SING ALONG?",
+      "goal": "Get everyone on earth to sing along — maybe use the radio, skywrite the lyrics, something.",
+      "relevantSkill": "Performance",
+      "difficulty": 11
+    },
+    {
+      "prompt": "It's working! Everyone is dancing and headbanging along to the awesome guitar solo and textured nuanced vocals, and the collective emotional momentum restarts the earth spinning. WHAT DRINK DO YOU CHOOSE TO CELEBRATE WITH?",
+      "goal": "Choose a drink.",
+      "relevantSkill": "Sommalier",
+      "difficulty": 5
+    }
+  ]
+}

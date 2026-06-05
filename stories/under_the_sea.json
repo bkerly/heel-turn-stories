@@ -1,0 +1,123 @@
+{
+  "id": "mermaid-story",
+  "title": "Under the Sea",
+  "subtitle": "A Mermaid Adventure",
+  "description": "You're a mermaid who is very hungry, and also possibly in love with a sailor who is possibly a prince. Navigate school buses, sea witches, and surprise weddings.",
+  "accentColor": "FF22D3EE",
+  "characters": [
+    {
+      "name": "Ariel",
+      "description": "The iconic mermaid — graceful, optimistic, a little silly, real good at singing, and kind to man and beast alike.",
+      "stats": {
+        "Table_manners": 0,
+        "Undersea_navigation": 2,
+        "Daring": 5,
+        "Song_knowldege": 5,
+        "Legalese": -4,
+        "Charm": 4
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Nerissa",
+      "description": "An adventurous mermaid with a thirst for knowledge and adventure, NERISSA loves exploring the seabed.",
+      "stats": {
+        "Table_manners": 3,
+        "Undersea_navigation": 5,
+        "Daring": 1,
+        "Song_knowldege": 2,
+        "Legalese": 1,
+        "Charm": 2
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Thalassa",
+      "description": "A thoughtful, sensitive mermaid who knows the name of every leaf of seagrass and every cute little fish.",
+      "stats": {
+        "Table_manners": 2,
+        "Undersea_navigation": 4,
+        "Daring": -1,
+        "Song_knowldege": 3,
+        "Legalese": 4,
+        "Charm": 0
+      },
+      "imageName": ""
+    },
+    {
+      "name": "Calyptra",
+      "description": "A real wild card, CALYPTRA is here for a good time and brought the party with her. She has a boombox.",
+      "stats": {
+        "Table_manners": -2,
+        "Undersea_navigation": 1,
+        "Daring": 3,
+        "Song_knowldege": -1,
+        "Legalese": -3,
+        "Charm": 5
+      },
+      "imageName": ""
+    }
+  ],
+  "challenges": [
+    {
+      "prompt": "You're a mermaid! You live under the sea. That's great. But you're also hungry — so hungry! Your mer-mom offers you some delicious kelp salad. WHAT SHOULD YOU DO?",
+      "goal": "Eat the salad.",
+      "relevantSkill": "Table_manners",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Now you are full of kelp and ready to start your day. It's time to go to mermaid school! You hear your school bus — which is actually a submarine — outside. WHAT DO YOU DO?",
+      "goal": "Go to school.",
+      "relevantSkill": "Undersea_navigation",
+      "difficulty": 5
+    },
+    {
+      "prompt": "On the way to school you are waylaid by sharks! Very scary. They just want to talk though — apparently a ship is in trouble and sailors are falling overboard. CAN YOU HELP THEM?",
+      "goal": "Help the sailors somehow.",
+      "relevantSkill": "Daring",
+      "difficulty": 15
+    },
+    {
+      "prompt": "You help the sailors and one is super handsome. Why don't you sing him a song! WHAT SONG SHOULD YOU SING?",
+      "goal": "Name any song.",
+      "relevantSkill": "Song_knowldege",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Well, that was fun. Back to the sea now. But you can't stop thinking about the handsome sailor! Maybe you should go talk to Ursula the sea witch.",
+      "goal": "Go talk to Ursula the sea witch.",
+      "relevantSkill": "Undersea_navigation",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Ursula says you should definitely pursue a romance with this sailor (about whom you know very little). She said you could trade something for legs! WHAT SHOULD YOU TRADE?",
+      "goal": "Trade your voice for legs.",
+      "relevantSkill": "Legalese",
+      "difficulty": 10
+    },
+    {
+      "prompt": "Now you have legs. And despite some setbacks, your romance with the sailor (turns out he's a prince) is going great! SHOULD YOU GO ON A BOAT RIDE WITH HIM?",
+      "goal": "Go on a boat ride!",
+      "relevantSkill": "Undersea_navigation",
+      "difficulty": 5
+    },
+    {
+      "prompt": "The boat ride is fun, but when you get back another woman is at the palace trying to get the prince to marry her! HOW DO YOU STOP THEM?",
+      "goal": "Interrupt the wedding somehow.",
+      "relevantSkill": "Daring",
+      "difficulty": 15
+    },
+    {
+      "prompt": "Your dad heard about the whole wedding business and is real mad at Ursula for her shenanigans. He smites her into the ocean depths! WHAT DO YOU SAY TO THE PRINCE NOW?",
+      "goal": "Say something to the prince.",
+      "relevantSkill": "Charm",
+      "difficulty": 10
+    },
+    {
+      "prompt": "That was a crazy adventure, but also you missed a whole day of school and now you have to go tomorrow. Or do you? WHAT DO YOU THINK?",
+      "goal": "Any answer is valid.",
+      "relevantSkill": "Charm",
+      "difficulty": 5
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "spy-squad",
+  "title": "Animal Spy Squad",
+  "subtitle": "Raid Dr. Sharktopus' Penthouse Party",
+  "description": "Snoop and sneak as a secret operative animal. Hack doors, evade lasers, wrestle doomsday buttons, and comfort supervillains about their feelings.",
+  "accentColor": "FF4ADE80",
+  "characters": [
+    {
+      "name": "Lion",
+      "description": "King of the beasts and with the strength of a dozen men, not to mention tawny brawny good looks, the LION is a formidable choice for espionage.",
+      "stats": {
+        "Strength": 5,
+        "Stealth": 1,
+        "Charisma": 4,
+        "Cleverness": 1
+      },
+      "imageName": "Lion.png"
+    },
+    {
+      "name": "Panda",
+      "description": "Big, powerful, and cute, the PANDA eats bamboo for many hours each day.",
+      "stats": {
+        "Strength": 3,
+        "Stealth": 0,
+        "Charisma": 3,
+        "Cleverness": 0
+      },
+      "imageName": "Panda.png"
+    },
+    {
+      "name": "Snake",
+      "description": "The SNAKE, indirect cause of the fall of man and most subtle of the beasts, is a sneaky choice for getting in and out quickly.",
+      "stats": {
+        "Strength": 0,
+        "Stealth": 5,
+        "Charisma": 3,
+        "Cleverness": 5
+      },
+      "imageName": "Snake.png"
+    },
+    {
+      "name": "Rabbit",
+      "description": "Fast! Hard to see! Notoriously dumb! The RABBIT is a great choice for those who wish to avoid conflict.",
+      "stats": {
+        "Strength": 0,
+        "Stealth": 4,
+        "Charisma": 2,
+        "Cleverness": 0
+      },
+      "imageName": "Rabbit.png"
+    },
+    {
+      "name": "Unicorn",
+      "description": "A magical creature with a rainbow tail and the ability to grant wishes and heal all ouchies — powerful but easy to notice.",
+      "stats": {
+        "Strength": 3,
+        "Stealth": -1,
+        "Charisma": 5,
+        "Cleverness": 5
+      },
+      "imageName": "Unicorn.png"
+    },
+    {
+      "name": "Cat",
+      "description": "Cute, soft, with four little paws that sometimes have claws — maybe it likes you today, maybe it doesn't, who can say, it's a CAT!",
+      "stats": {
+        "Strength": 0,
+        "Stealth": 5,
+        "Charisma": 2,
+        "Cleverness": 5
+      },
+      "imageName": "cat.png"
+    }
+  ],
+  "challenges": [
+    {
+      "prompt": "You are a member of the super secret \"Animal Spy Squad.\" You are outside a swanky party run by the evil Dr. Sharktopus. You need to charm the door guard — a bear — into letting you in.",
+      "goal": "Convince the door guard you should be allowed into the party.",
+      "relevantSkill": "Charisma",
+      "difficulty": 10
+    },
+    {
+      "prompt": "Great! You're in the party. Now you need to find the secret entrance to Dr. Sharktopus' lair. What spy equipment will you use to suss out the secret door?",
+      "goal": "Use a piece of spy equipment that will help you find the hidden door.",
+      "relevantSkill": "Cleverness",
+      "difficulty": 8
+    },
+    {
+      "prompt": "Now that you're in the secret lair, you'll need to get through the corridors undetected. How will you move quietly and stealthily?",
+      "goal": "Move through the corridors to the control room without being detected.",
+      "relevantSkill": "Stealth",
+      "difficulty": 11
+    },
+    {
+      "prompt": "You're outside the control room, but the door is locked behind a high-tech control panel. How will you bypass the controls?",
+      "goal": "Bypass the highly sophisticated door controls.",
+      "relevantSkill": "Cleverness",
+      "difficulty": 13
+    },
+    {
+      "prompt": "You find your way into the control room and see Dr. Sharktopus about to press the doomsday button. You have to wrestle it from his hand! What techniques do you use?",
+      "goal": "Get the doomsday button from Dr. Sharktopus.",
+      "relevantSkill": "Strength",
+      "difficulty": 7
+    },
+    {
+      "prompt": "Dr. Sharktopus is very sad that you foiled his plan, which was mostly a cry for attention anyhow. How do you make sure he feels seen even as he submits to the inflexible dictates of justice?",
+      "goal": "Help Dr. Sharktopus feel better about this whole adventure.",
+      "relevantSkill": "Charisma",
+      "difficulty": 8
+    }
+  ]
+}

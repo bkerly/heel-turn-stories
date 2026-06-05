@@ -1,0 +1,165 @@
+{
+  "id": "demon-hunters",
+  "title": "Huntr/x",
+  "subtitle": "K-Pop Demon Hunters World Tour",
+  "description": "You and the girls from Huntr/x just finished a world tour — now demons are crashing your spa day. Sing, dance, fight, and rhyme your way to stopping Gwi-ma's evil radio station.",
+  "accentColor": "FFEC4899",
+  "characters": [
+    {
+      "name": "Rumi",
+      "description": "The lead singer and main creative force behind Huntr/x, Rumi fights with a sword she can make magically appear. She is also half demon and embarrassed about that.",
+      "stats": {
+        "Lyrics": 3,
+        "Dance": 4,
+        "Singing": 5,
+        "It_Factor": 5,
+        "Not_looking_like_a_demon": -1,
+        "Fighting": 5,
+        "Friendship": 2
+      },
+      "imageName": "Rumi.png"
+    },
+    {
+      "name": "Mira",
+      "description": "The creative director for visual effects at Huntr/x, Mira was always a bad girl growing up but now has friends and fights demons with a sharp thing on a stick!",
+      "stats": {
+        "Lyrics": 2,
+        "Dance": 5,
+        "Singing": 3,
+        "It_Factor": 4,
+        "Not_looking_like_a_demon": 4,
+        "Fighting": 5,
+        "Friendship": 5
+      },
+      "imageName": "Mira.png"
+    },
+    {
+      "name": "Zoey",
+      "description": "Huntr/x's main lyricist who fights demons with knife things she throws. She is from Berkeley, California and is very much a people pleaser.",
+      "stats": {
+        "Lyrics": 5,
+        "Dance": 2,
+        "Singing": 1,
+        "It_Factor": 4,
+        "Not_looking_like_a_demon": 4,
+        "Fighting": 5,
+        "Friendship": 5
+      },
+      "imageName": "Zoey.png"
+    },
+    {
+      "name": "Jinu",
+      "description": "The lead singer of Saja Boys and also a demon. Long ago he betrayed his family due to Gwi-ma's evil influence, but he is good now.",
+      "stats": {
+        "Lyrics": 3,
+        "Dance": 4,
+        "Singing": 3,
+        "It_Factor": 5,
+        "Not_looking_like_a_demon": 5,
+        "Fighting": 4,
+        "Friendship": 1
+      },
+      "imageName": "Jinu.png"
+    },
+    {
+      "name": "Bobby",
+      "description": "Huntr/x's manager. He is good at booking venues but not good at realizing that the band he manages is also a demon-fighting team.",
+      "stats": {
+        "Lyrics": -1,
+        "Dance": -4,
+        "Singing": -1,
+        "It_Factor": -2,
+        "Not_looking_like_a_demon": -4,
+        "Fighting": -4,
+        "Friendship": 4
+      },
+      "imageName": "Bobby.png"
+    }
+  ],
+  "challenges": [
+    {
+      "prompt": "You and the girls from Huntr/x have just completed a world tour and are excited to take a break. No one can decide how to spend the next week off. HOW DO YOU WANT TO SPEND YOUR TIME OFF?",
+      "goal": "Name a leisure activity acceptable to the members of Huntr/x.",
+      "relevantSkill": "Friendship",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Super relaxing! Later, at the spa, you notice more and redder steam than usual. Demons! HOW DO YOU FIGHT OFF THE DEMONS?",
+      "goal": "Rout the demons.",
+      "relevantSkill": "Fighting",
+      "difficulty": 8
+    },
+    {
+      "prompt": "You and the girls from Huntr/x are confused. Didn't you get rid of the demons? You decide to investigate by talking to one of the demons you catch. HOW DO YOU CONVINCE THE DEMON TO TALK TO YOU?",
+      "goal": "Get the demon to agree to talk to you.",
+      "relevantSkill": "It_Factor",
+      "difficulty": 10
+    },
+    {
+      "prompt": "The demon says Gwi-ma is behind the attack — he's really mad that you broke up the Saja Boys. You decide to talk to their manager Jeff, who is across town for the next 20 minutes! HOW DO YOU GET ACROSS TOWN IN TIME?",
+      "goal": "Get across town in time.",
+      "relevantSkill": "Dance",
+      "difficulty": 10
+    },
+    {
+      "prompt": "You arrive and Jeff shoves you on stage... Oh no, it's a trap and you are stuck on stage with a dance crew. Quick! NAME A DANCE YOU CAN DO WELL ENOUGH TO FIT IN!",
+      "goal": "Name a dance.",
+      "relevantSkill": "Dance",
+      "difficulty": 10
+    },
+    {
+      "prompt": "Suddenly the dancers all walk off stage and the spotlight shines on you. Uh oh! Better sing something! WHAT SONG WILL YOU SING?",
+      "goal": "Name a song.",
+      "relevantSkill": "It_Factor",
+      "difficulty": 12
+    },
+    {
+      "prompt": "The crowd is on your side now! You need to convince them to help you capture Jeff. You start making up a song about how mean he is. NAME SOMETHING THAT RHYMES WITH \"Jeff is real bad.\"",
+      "goal": "Come up with a lyric that rhymes with \"Jeff is real bad.\"",
+      "relevantSkill": "Lyrics",
+      "difficulty": 10
+    },
+    {
+      "prompt": "The crowd surges forward and carries Jeff back to you. But Jeff says \"I'm not in league with Gwi-ma, Huntr/x is!\" HOW DO YOU CONVINCE THE CROWD YOU ARE NOT A DEMON?",
+      "goal": "Convince the crowd you are not a demon.",
+      "relevantSkill": "Not_looking_like_a_demon",
+      "difficulty": 8
+    },
+    {
+      "prompt": "The crowd isn't buying Jeff's lies, and he confesses he agreed to help Gwi-ma because he thought it would make him have friends. HOW CAN YOU CONVINCE JEFF TO BE YOUR FRIEND INSTEAD?",
+      "goal": "Convince Jeff that you want to be his friend.",
+      "relevantSkill": "Friendship",
+      "difficulty": 12
+    },
+    {
+      "prompt": "Jeff is going to help you! He says the rainbow Honmoon doesn't work because red means demons can get through. You need to choose a color scheme that excludes red! PICK THREE COLORS!",
+      "goal": "Name three colors, none of which can be red.",
+      "relevantSkill": "It_Factor",
+      "difficulty": 8
+    },
+    {
+      "prompt": "Great colors! Jeff offers to plug you into his secret evil radio transmitter to send your new song all over the world to stop the demons. WHAT CLASSIC HUNTR/X SONG WILL YOU SING?",
+      "goal": "Name a K-Pop Demon Hunters song.",
+      "relevantSkill": "Lyrics",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Just at the peak of Rumi's solo, a demon named Ben comes to steal the microphone. HOW DO YOU DEFEAT THE DEMON BEN?",
+      "goal": "Fight off the demon Ben.",
+      "relevantSkill": "Fighting",
+      "difficulty": 10
+    },
+    {
+      "prompt": "Gwi-ma is powering up his own demon radio station on ships in international waters — clever FCC workaround, but it won't stop you! It's time for your best song yet. WHAT METAL WILL YOU SING ABOUT?",
+      "goal": "Name a metal.",
+      "relevantSkill": "Lyrics",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Gwi-ma's music sounds terrible compared to yours. He is defeated once again! HOW WILL YOU CELEBRATE?",
+      "goal": "Name any way you might celebrate a victory over a Korean Demon.",
+      "relevantSkill": "Friendship",
+      "difficulty": 5
+    }
+  ]
+}

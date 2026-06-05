@@ -1,0 +1,200 @@
+{
+  "id": "avian-adventure",
+  "title": "Bird Day Afternoon",
+  "subtitle": "The Feathered City Bus Hijack",
+  "description": "Assume the role of charismatic, driving-obsessed birds. Declare love, steal hot dogs, drive a speeding city bus with Keanu Reeves, and insult the mayor.",
+  "accentColor": "FF60A5FA",
+  "characters": [
+    {
+      "name": "Mallard",
+      "description": "The iconic duck — charismatic, adaptable, and found worldwide. A green head, yellow bill, and some very regular-looking feathers.",
+      "stats": {
+        "Avian_charm": 2,
+        "Leadership": 0,
+        "Flying": 2,
+        "Iconoclasism": -1,
+        "Insouciance": 2,
+        "Larceny": 1,
+        "Wheelsmanship": 2,
+        "Phronesis": 4
+      },
+      "imageName": "Mallard.png"
+    },
+    {
+      "name": "Ostrich",
+      "description": "Really too big to be a bird, but it has feathers and lays eggs, so there you have it. Fast, bad-tempered, and as dumb as they look.",
+      "stats": {
+        "Avian_charm": -1,
+        "Leadership": 2,
+        "Flying": -5,
+        "Iconoclasism": 4,
+        "Insouciance": 0,
+        "Larceny": 5,
+        "Wheelsmanship": 3,
+        "Phronesis": 0
+      },
+      "imageName": "Ostrich.png"
+    },
+    {
+      "name": "Eagle",
+      "description": "A powerful symbol of both freedom and bellicosity. Some species hunt prey up to 8 times their own body weight.",
+      "stats": {
+        "Avian_charm": 5,
+        "Leadership": 5,
+        "Flying": 5,
+        "Iconoclasism": -2,
+        "Insouciance": -5,
+        "Larceny": 3,
+        "Wheelsmanship": 3,
+        "Phronesis": 3
+      },
+      "imageName": "Eagle.png"
+    },
+    {
+      "name": "Swan",
+      "description": "Basically just a surly goose who did a semester abroad in France and now thinks it's better than other comparably large waterfowl.",
+      "stats": {
+        "Avian_charm": 4,
+        "Leadership": 5,
+        "Flying": 3,
+        "Iconoclasism": -5,
+        "Insouciance": 2,
+        "Larceny": -1,
+        "Wheelsmanship": 3,
+        "Phronesis": 2
+      },
+      "imageName": "Swan.png"
+    },
+    {
+      "name": "Platypus",
+      "description": "Not technically a bird, but a marsupial. Cannot fly. Does not have feathers. Included here by popular demand.",
+      "stats": {
+        "Avian_charm": -2,
+        "Leadership": -3,
+        "Flying": -10,
+        "Iconoclasism": 5,
+        "Insouciance": -2,
+        "Larceny": -5,
+        "Wheelsmanship": -1,
+        "Phronesis": 0
+      },
+      "imageName": "Platypus.png"
+    },
+    {
+      "name": "Flamingo",
+      "description": "With pink plumage and an easygoing littoral lifestyle, the FLAMINGO is a symbol of just letting the vibes be, man.",
+      "stats": {
+        "Avian_charm": 3,
+        "Leadership": 1,
+        "Flying": 2,
+        "Iconoclasism": 3,
+        "Insouciance": 5,
+        "Larceny": 0,
+        "Wheelsmanship": 0,
+        "Phronesis": 5
+      },
+      "imageName": "Flamingo.png"
+    },
+    {
+      "name": "Seagull",
+      "description": "Known for being loud, rowdy, and stealing things from little kids who were just having a nice day at the beach.",
+      "stats": {
+        "Avian_charm": 0,
+        "Leadership": -1,
+        "Flying": 4,
+        "Iconoclasism": 5,
+        "Insouciance": 1,
+        "Larceny": 10,
+        "Wheelsmanship": 1,
+        "Phronesis": 4
+      },
+      "imageName": "Seagull.png"
+    }
+  ],
+  "challenges": [
+    {
+      "prompt": "It is a truth universally acknowledged that a single bird in possession of a good fortune must be in want of a lady bird. You see a beautiful lady duck one sunny morning. HOW DO YOU DECLARE YOUR LOVE?",
+      "goal": "Make the lady duck fall in love with you.",
+      "relevantSkill": "Avian_charm",
+      "difficulty": 10
+    },
+    {
+      "prompt": "Now no longer interested in romance, but instead hungry, you see a 5-year-old eating a hotdog at a park bench. HOW DO YOU GET THAT HOT DOG?",
+      "goal": "Eat the hot dog!",
+      "relevantSkill": "Larceny",
+      "difficulty": 10
+    },
+    {
+      "prompt": "Fed and romantically satisfied, you turn toward the problems of an unjust society. You see a statue of a colonizin' sonofagun. HOW DO YOU SHOW YOUR DISRESPECT?",
+      "goal": "Desecrate the statue.",
+      "relevantSkill": "Iconoclasism",
+      "difficulty": 5
+    },
+    {
+      "prompt": "As a crowd cheers, you see the #14 bus stopping nearby. You've always dreamed of driving a city bus. HOW DO YOU CONVINCE THE DRIVER TO LET YOU DRIVE?",
+      "goal": "Convince the driver to let you drive the bus.",
+      "relevantSkill": "Avian_charm",
+      "difficulty": 15
+    },
+    {
+      "prompt": "Bird at the wheel! A passenger requests the next stop. HOW DO YOU BRING THE BUS SAFELY TO A HALT?",
+      "goal": "Stop the bus.",
+      "relevantSkill": "Wheelsmanship",
+      "difficulty": 5
+    },
+    {
+      "prompt": "Actor Keanu Reeves gets on! The radio crackles. HOW DO YOU CONVINCE THE PERSON ON THE OTHER END THAT YOU ARE THE BUS DRIVER AND NOT A BIRD?",
+      "goal": "Convince the radio operator you're the bus driver.",
+      "relevantSkill": "Insouciance",
+      "difficulty": 10
+    },
+    {
+      "prompt": "The radio says if the bus goes below 55 mph it will explode! Keanu thinks he should drive. HOW DO YOU CONVINCE KEANU TO LET YOU KEEP DRIVING?",
+      "goal": "Convince Keanu to let you drive the bus.",
+      "relevantSkill": "Leadership",
+      "difficulty": 10
+    },
+    {
+      "prompt": "The highway ramp ahead is unfinished. You'll have to jump the gap! HOW DO YOU MAKE SURE THE BUS CLEARS IT?",
+      "goal": "Make the jump.",
+      "relevantSkill": "Wheelsmanship",
+      "difficulty": 15
+    },
+    {
+      "prompt": "You clear the jump, but passengers are freaking out. HOW DO YOU CALM THEM DOWN?",
+      "goal": "Calm down the passengers.",
+      "relevantSkill": "Leadership",
+      "difficulty": 10
+    },
+    {
+      "prompt": "You need to get passengers off the bus. You see a passing flock of geese! HOW DO YOU ATTRACT THEIR ATTENTION AND GET THEIR HELP?",
+      "goal": "Get the help of the passing flock of geese.",
+      "relevantSkill": "Flying",
+      "difficulty": 15
+    },
+    {
+      "prompt": "The geese lift each passenger to safety. Now it's just you and Keanu. HOW DO YOU BOTH ESCAPE THE EXPLODING BUS?",
+      "goal": "Escape the bus before it explodes.",
+      "relevantSkill": "Flying",
+      "difficulty": 15
+    },
+    {
+      "prompt": "Keanu is super grateful and giving you romance eyes. HOW DO YOU LET HIM KNOW YOU STILL LOVE THE LADY DUCK?",
+      "goal": "Make Keanu feel okay about the lady duck.",
+      "relevantSkill": "Avian_charm",
+      "difficulty": 10
+    },
+    {
+      "prompt": "The mayor wants to give you a medal, but you recognize it's a photo op and there's a recent corruption scandal. HOW DO YOU SHOW YOU DON'T NEED HIS TRINKETS?",
+      "goal": "Insult the mayor.",
+      "relevantSkill": "Iconoclasism",
+      "difficulty": 1
+    },
+    {
+      "prompt": "It's just you and the lady duck now. HOW DO YOU SPEND THE REST OF YOUR BEAUTIFUL LIVES TOGETHER?",
+      "goal": "Live a happy life.",
+      "relevantSkill": "Phronesis",
+      "difficulty": 5
+    }
+  ]
+}
