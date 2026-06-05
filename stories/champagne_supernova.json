@@ -16,9 +16,9 @@
         "Space piloting": 2,
         "Science": 0,
         "Ingenuity": 5,
-        "Sommalier": -1
+        "Sommelier": -1
       },
-      "imageName": ""
+      "imageName": "Roughneck_Ben.png"
     },
     {
       "name": "Tom Hanks",
@@ -31,9 +31,9 @@
         "Space piloting": 3,
         "Science": 2,
         "Ingenuity": 2,
-        "Sommalier": 2
+        "Sommelier": 2
       },
-      "imageName": ""
+      "imageName": "Tom_Hanks.png"
     },
     {
       "name": "Jaz Flannigan",
@@ -46,12 +46,12 @@
         "Space piloting": 5,
         "Science": 5,
         "Ingenuity": 2,
-        "Sommalier": 1
+        "Sommelier": 1
       },
-      "imageName": ""
+      "imageName": "Jaz_Flannigan.png"
     },
     {
-      "name": "Josh (Katie's Friend)",
+      "name": "Josh, Katie's Friend",
       "description": "Charismatic and good at drinks, he used to work at Plumpjack but now has his own whiskey label.",
       "stats": {
         "Thoughtfulness": 4,
@@ -61,9 +61,9 @@
         "Space piloting": -1,
         "Science": 4,
         "Ingenuity": 3,
-        "Sommalier": 5
+        "Sommelier": 5
       },
-      "imageName": ""
+      "imageName": "Josh__Katie_s_Friend.png"
     },
     {
       "name": "Mr. Monkey Jocks",
@@ -76,9 +76,9 @@
         "Space piloting": -5,
         "Science": -2,
         "Ingenuity": -3,
-        "Sommalier": -5
+        "Sommelier": -5
       },
-      "imageName": ""
+      "imageName": "Mr_Monkey_Jocks.png"
     }
   ],
   "challenges": [
@@ -181,7 +181,7 @@
     {
       "prompt": "It's working! Everyone is dancing and headbanging along to the awesome guitar solo and textured nuanced vocals, and the collective emotional momentum restarts the earth spinning. WHAT DRINK DO YOU CHOOSE TO CELEBRATE WITH?",
       "goal": "Choose a drink.",
-      "relevantSkill": "Sommalier",
+      "relevantSkill": "Sommelier",
       "difficulty": 5
     }
   ]
